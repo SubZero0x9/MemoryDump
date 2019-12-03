@@ -22,7 +22,7 @@ int wmain(int argc, WCHAR *argv[])
 
 	if (argc < 2)
 	{
-		printf("Usage: MemoryDump [options] [PID]\n");
+		printf("Usage: %s [options] [PID]\n", argv[0]);
 		printf("options:- -fulldump : Create a full memory dump of the specified PID\n");
 		printf("-fulldump : Create a full memory dump of the specified PID\n");
 		printf("-minidump: Create a mini memory dump of the specified PID\n");
